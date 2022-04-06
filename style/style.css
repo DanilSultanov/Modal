@@ -1,0 +1,32 @@
+
+.modal{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.907);
+    color: rgba(255, 255, 255, 0.92);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+
+
+.overlay{
+    position: fixed;
+    left:0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background:rgba(34, 34, 34, 0.485);;
+}
+
+
+.hidden{
+    display: none;
+}
